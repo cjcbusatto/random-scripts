@@ -7,9 +7,17 @@
   - Usage: `./3840x1080fullscreen.sh`
 
 ## Windows
+
 - [chrome-unsecure.bat](windows/chrome-unsecure.bat)
   - It is useful to use an instance without security policies on the development of some applications, e.g. Chrome extension.
   - Usage: Close all open Chrome instances and then `chrome-unsecure.bat`
+
+- [ethernet-ip.bat](windows/ethernet-ip.bat)
+  - For some projects, the computer needs an static IP address on a specific adapter. This script configures it directly on the terminal.
+  - Note: set the adapter name you want to configure, "Ethernet" in my case.
+  - Usage:
+    - To use IP 192.168.0.123: `ethernet-ip.bat 192.168.0.123`
+    - To get IP dynamically: `ethernet-ip.bat`
 
 ## License
 
